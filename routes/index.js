@@ -89,8 +89,10 @@ router.post('/', function (req, res, next) {
 router.use('/signup', require('./signup'));
 router.use('/signin', require('./signin'));
 router.use('/logout', require('./logout'));
-router.use('/statusbutton', require('./statusbutton'));
+router.use('/completebutton', require('./completebutton'));
+router.use('/incompletebutton', require('./incompletebutton'));
 router.use('/deletebutton', require('./deletebutton'));
 router.use('/modify', require('./modify'));
+router.use('/user', require('./user'));
 
 module.exports = router;
