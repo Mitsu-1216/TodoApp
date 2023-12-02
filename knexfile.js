@@ -7,8 +7,8 @@ module.exports = {
     connection: {
       database: "todo_app",
       port: 3307,
-      user: "app_user",
-      password: "app_user",
+      user: "root",
+      password: "root",
       //DBの値をそのまま取ってくる
       dateStrings: true
     },
